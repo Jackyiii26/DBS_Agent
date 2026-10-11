@@ -1,0 +1,110 @@
+/* DBS-inspired concept. Official logo source is documented in docs/DESIGN.md.
+   Brand red is reserved for actions; green continues to indicate passed checks. */
+.sidebar{background:#25272b;border:0;padding:29px 18px 22px}
+.brand{background:#fff;border-radius:4px;padding:12px 13px;gap:11px;justify-content:center}
+.dbs-logo{width:77px;height:30px;object-fit:contain}
+.brand-product{font-size:17px;font-weight:400;letter-spacing:-.6px;border-left:1px solid #d9dadd;padding-left:11px;color:#292b30}
+.brand-note{color:#c3c5c9;font-size:9px;letter-spacing:1.4px;margin:16px 10px 32px}
+.nav-label{color:#94979e;font-size:9px;letter-spacing:1.5px}
+.nav-btn{color:#cbd0d7;border-radius:6px;font-size:12px;padding:14px 13px;border-left:3px solid transparent}
+.nav-btn:hover{background:#35383e;color:#fff}
+.nav-btn.active{background:#3a3034;border-left-color:#ff3345;color:#fff}
+.nav-btn.active svg{color:#ff4b5c}
+.trust-mini{background:#303339;border-radius:8px;margin:24px 3px;color:#fff}
+.trust-mini svg{color:#e5e7eb}
+.trust-mini p{color:#b7bdc7;font-size:10px}
+.profile{border-top-color:#40434a;color:#fff}
+.profile small{color:#a9afb9}
+.profile .avatar{background:#4b4e55;color:#fff}
+.topbar{background:#fff;border-top:3px solid var(--brand);height:78px}
+.breadcrumb{font-size:12px}.breadcrumb strong{font-weight:600}
+.topbar .avatar{background:#eeeef1;color:#555860}
+.pill{border-radius:5px;font-size:10px;background:#fafafa}
+.eyebrow{font-size:10px;color:#71757d;letter-spacing:1.4px;font-weight:600}
+h1{font-size:30px;letter-spacing:-.8px;font-weight:600}
+.page-heading p{font-size:13px;color:#71757d}
+main:has(.overview-grid) .page-heading{position:relative;isolation:isolate;overflow:hidden;padding:27px 30px 29px;border-radius:10px;background:linear-gradient(108deg,#c9001b 0%,#e50019 67%,#f33b41 100%);color:#fff;min-height:150px;box-shadow:0 5px 16px #ce001218;align-items:center}
+main:has(.overview-grid) .page-heading:after{content:'';position:absolute;z-index:-1;width:330px;height:330px;right:-105px;top:-145px;border:43px solid #ffffff0c;border-radius:50%;box-shadow:0 0 0 39px #ffffff09,0 0 0 78px #ffffff06;transform:rotate(-20deg)}
+main:has(.overview-grid) .page-heading .eyebrow{color:#ffd9de;letter-spacing:1.6px;font-size:9px;margin-bottom:13px}
+main:has(.overview-grid) .page-heading h1{font-size:31px}
+main:has(.overview-grid) .page-heading p{color:#ffe5e9;font-size:12px;margin-top:11px}
+main:has(.overview-grid) .date{color:#ffdde3;align-self:flex-end;white-space:nowrap;font-size:10px}
+.overview-grid{gap:18px}
+.card{box-shadow:0 2px 7px #161b2504;border-color:#e4e6e9}
+.balance{background:#2d3035;border-color:#2d3035;border-radius:10px;min-height:175px;padding:24px}
+.balance .label,.balance-value span,.balance-foot{color:#c7cbd1}
+.balance-value{font-size:30px;letter-spacing:-.8px;font-weight:500}
+.balance-foot .dot{background:#ff5463}
+.balance:after{border-color:#ffffff09;box-shadow:0 0 0 22px #ffffff04,0 0 0 45px #ffffff03}
+.account-card{border-radius:10px;min-height:175px;padding:24px}
+.account-icon{background:#fff0f1;color:#cc1729;border-radius:8px}
+.account-value{color:#282b31;font-size:25px}
+.account-value span,.account-name,.account-type{color:#71757d}
+.section-top{padding:20px 24px;background:#fff;border-bottom-color:#eceef0}
+.section-top h2{font-size:15px;font-weight:600}
+.section-title svg{color:var(--brand)}
+.tiny-badge{background:#f1f2f4;color:#656a73;border-radius:4px;font-size:9px;font-weight:600}
+.welcome-orbit{border:1px solid #f4cbd0;border-radius:12px;background:linear-gradient(135deg,#fff4f4,#ffe2e5);box-shadow:none}
+.welcome-orbit svg,.spark-icon{color:#d41d32}
+.spark-icon{background:#fff0f2;border-radius:10px}
+.welcome-title{font-size:25px;font-weight:600;letter-spacing:-.6px}
+.welcome-desc{color:#71757d;font-size:12px}
+.suggestion-label{color:#777c84;font-size:9px;font-weight:600}
+.suggestion{background:#fff;border-color:#e3e5e9;border-radius:8px;color:#41454d;font-size:11px}
+.suggestion svg{color:#c72a39}
+.suggestion:hover{border-color:#df7781;background:#fff7f8}
+.composer{background:#fafbfc;border-color:#d8dce1;border-radius:10px}
+.composer:focus-within{border-color:#d74655;box-shadow:0 0 0 2px #e5001909}
+.composer textarea{font-size:13px}.composer textarea::placeholder{color:#90969e}
+.source-select,.voice-select,.voice-button{color:#636a73}
+.send-button{background:var(--brand);border-radius:6px}
+.send-button:hover{background:#bd0016}
+.composer-foot{color:#777e87;font-size:9px}
+.safety-card{background:#fff;border-color:#e4e6e9;border-radius:12px;border-top:3px solid var(--brand);padding:23px}
+.shield-mark{background:#fff0f2;border-color:#f1d1d6;color:#d1182d}
+.safety-card h3{font-size:15px}.safety-card p{color:#71757d;font-size:11px}
+.safety-row{color:#505a61;font-size:11px}.safety-row svg{color:#398069}
+.safety-bottom{border-top-color:#e6e8ec;color:#777e87}
+.text-button{color:#bd1225;font-weight:500}.text-button:hover{text-decoration:underline}
+.bill-icon{color:#7b6163;background:#f5f0f1;border-radius:7px}
+.bill-info small{color:#7b818a}.bill-pay{background:#fff0f2;color:#c7192c;border:1px solid #f3d0d5;border-radius:5px}
+.bill-pay:hover{background:#ffe2e6}.bills-title h3{font-size:14px}
+.primary{background:var(--brand);border-radius:6px;font-weight:600;padding:12px 18px}
+.primary:hover{background:#bb0016}.secondary{border-color:#c9cdd3;color:#515660;border-radius:6px}
+.secondary:hover{background:#f2f3f5}.danger{color:#b42332;border-color:#e8b8bd}
+.user-message{background:#f1f2f4;border-radius:10px 10px 2px 10px;color:#343840}
+.response-label{color:#a92032;font-weight:600;letter-spacing:.7px;font-size:9px}
+.plan-card{border-color:#e1e4e8;border-radius:8px;padding:17px;border-left:3px solid #dc2437}
+.plan-meta{color:#717881}.plan-top strong{color:#23272d;font-weight:600}.plan-total{border-top-color:#d8dce2}
+.balance-projection{color:#717881}.balance-projection strong{color:#404b53}
+.choice{border-color:#d9dde3;border-radius:8px}.choice:hover{background:#fff7f8;border-color:#e07782}.choice small{color:#747b85}
+.check-row svg{color:#31805e}.check-row.pending svg{color:#b68220}.check-row.fail svg{color:#c82035}.check-row p{color:#747b85}
+.receipt-banner .shield-mark{background:#edf7f0;border-color:#c9e4d2;color:#258152}
+.receipt-banner small{color:#717b76}.alert.success,.lab-result{background:#eff8f2;border-color:#cbe5d4;color:#2c6b45}
+.status{background:#edf7f1;color:#32744e}.status .dot{background:#409060}
+.status.blocked{background:#fff0f2;color:#b42332}.status.blocked .dot{background:#c42d42}
+.status.pending{background:#fff7e6;color:#91671c}.status.pending .dot{background:#be923e}
+.alert{border-radius:8px}.contact-card .avatar{background:#f8e9eb;color:#b72437}
+.contact-card p,.section-copy,.footnote,.empty-state,.saved-notice{color:#747b85}
+.audit-entry{border-left-color:#e2e5e9}.audit-entry:before{background:#cf3544}.audit-entry pre{background:#f3f4f6;color:#515a67;border-radius:6px}
+.audit-hash{color:#848b95}.search-input{border-color:#d6dce2;border-radius:6px;color:#515a67}
+.lab-card{border-radius:9px}.lab-card p{color:#747b85}.lab-result.fail{background:#fff0f2;color:#b42332}
+.arch-node{background:#f4f5f7;border-color:#e0e4e9;border-radius:7px;color:#525c68}.arch-node svg{color:#ac2637}
+.arch-node.boundary{background:#fff0f2;border-color:#e898a2;color:#9a2635}
+.setting-row code{background:#f1f3f6;color:#606976}.setting-row p{color:#747b85}.setting-row select{border-color:#d4d9e0;color:#535c68}
+dialog{border-radius:12px;border-color:#e2e4e8;box-shadow:0 30px 100px #1c203040}dialog::backdrop{background:#1b1f2966}
+.dialog-body{border-top:4px solid var(--brand)}.dialog-body h2{font-size:24px;font-weight:600}
+.dialog-footer{background:#f6f7f9;border-top-color:#e1e5e9}.confirm-check{color:#5e6774}
+.confirm-check input{accent-color:var(--brand)}.demo-token{background:#f3f4f6;color:#282f38;border-radius:8px}
+.token-input{border-color:#d5dbe2;border-radius:7px;color:#282f38}
+.activity-table th{color:#7a818c;font-weight:600;background:#fafbfc}.activity-table td{color:#434a54}
+.activity-name small{color:#7d8590}.page-footer{color:#858c96}
+.spinner{border-color:#f1c6cd;border-top-color:var(--brand)}.busy{color:#6c737d}
+#toast{background:#30343b;border-radius:7px;box-shadow:0 6px 25px #15192320}
+.mobile-brand img{width:65px;height:26px;display:block}
+.table-scroll{position:relative}
+.brand-symbol{background:var(--brand);color:white;border-radius:6px}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline-color:#d74b5a}
+@media(max-width:1180px){.sidebar{padding:28px 12px}.brand{padding:11px 8px;gap:8px}.dbs-logo{width:64px}.brand-product{font-size:15px;padding-left:8px}.brand-note{font-size:8px;letter-spacing:1px;margin:15px 5px 30px}main:has(.overview-grid) .page-heading{padding:26px}}
+@media(max-width:960px) and (min-width:651px){.sidebar .brand{padding:8px 3px;border-radius:3px}.dbs-logo{width:48px}.brand-product{display:none}.nav-btn{padding:14px 10px;border-left-width:2px}.profile .avatar{font-size:10px}.balance-value{font-size:24px}}
+@media(max-width:650px){.sidebar{background:#fff;border-top:1px solid #e1e5ea;padding:6px 10px}.nav-btn{color:#737b86;padding:12px;border:0;border-radius:6px}.nav-btn:hover{background:#f3f4f6;color:#4b535f}.nav-btn.active{background:#fff0f2;color:#d4162b;border:0}.nav-btn.active svg{color:#d4162b}.sidebar .brand{display:none}.topbar{height:65px;padding:0 18px}.breadcrumb{font-size:10px;gap:9px}.breadcrumb>span:not(.mobile-brand){display:none}.pill{font-size:8px}.top-actions{gap:8px}main:has(.overview-grid) .page-heading{padding:24px 21px;min-height:164px;margin-bottom:18px;border-radius:8px}main:has(.overview-grid) .page-heading h1{font-size:25px}main:has(.overview-grid) .page-heading p{font-size:11px;line-height:1.8;max-width:230px}main:has(.overview-grid) .page-heading .eyebrow{font-size:8px;letter-spacing:1.1px}.overview-grid{gap:11px}.balance{min-height:160px;padding:23px}.balance-value{font-size:30px}.account-card{padding:18px;min-height:146px}.account-value{font-size:22px}.section-top{padding:18px}.section-top h2{font-size:13px}.tiny-badge{font-size:8px}.welcome-title{font-size:23px}.welcome-desc{font-size:11px}.safety-row{font-size:10px}.primary{font-size:11px}.dialog-body h2{font-size:22px}.composer textarea{font-size:12px}.composer-foot{font-size:8px}}

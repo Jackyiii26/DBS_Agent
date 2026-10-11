@@ -1,0 +1,14 @@
+{
+  "name": "aegis-dcta",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Conversational banking with verifiable human authorization — DBS hackathon prototype",
+  "engines": { "node": ">=20.10" },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "dev": "node --watch server/index.mjs",
+    "test": "node --test tests",
+    "check": "node --check server/index.mjs && node --check server/engine.mjs && node --check server/parser.mjs && node --check server/provider.mjs && node --check public/app.js"
+  }
+}

@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+# Original challenge handout is local reference material.
+/3af2d08d-d3f0-4998-98a5-a820bd245910(2).pdf
+data/
+tmp/
+node_modules/
+coverage/
+*.log
